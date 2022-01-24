@@ -1,8 +1,8 @@
 # Micro Quest! [(Play here)](https://andre-la.itch.io/micro-quest)
 
-"The Knight" was given the mission to eliminate all the slimes that are infesting the tower.
+_"The Knight"_ was given the mission to eliminate all the slimes that are infesting the tower.
 
-"The Knight" also missed the sunset a lot.
+_"The Knight"_ also missed the sunset a lot.
 
 ---
 
