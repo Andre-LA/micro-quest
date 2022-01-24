@@ -1,4 +1,5 @@
-# Micro Quest! [(Play here)](https://andre-la.itch.io/micro-quest)
+# Micro Quest!
+[(Play here)](https://andre-la.itch.io/micro-quest)
 
 _"The Knight"_ was given the mission to eliminate all the slimes that are infesting the tower.
 
