@@ -12,5 +12,5 @@ Game made for the [WASM-4 Game Jam](https://itch.io/jam/wasm4).
 Made with [WASM-4](http://wasm4.org/) and [Nelua programming language](http://nelua.io/).
 
 Controls:
-    - **Arrows/D-pad** moves
-    - **X/Button 1** attacks
+- **Arrows/D-pad** moves
+- **X/Button 1** attacks
