@@ -673,13 +673,8 @@ function SpikeRoller:draw()
   local sr_hb = self:hb()
   $DRAW_COLORS = 0x2230
 
-  if math.abs(self.dir.y) > 0 then
-    local src_x = game.seg_frame_counter % 8 < 4 and 28 or 44
-    blitSub(pixel_art, self.pos.x, self.pos.y, 32, 16, src_x, 32, pixel_art_width, pixel_art_flags | BLIT_ROTATE)
-  else
-    local src_x = game.seg_frame_counter % 8 < 4 and 44 or 60
-    blitSub(pixel_art, self.pos.x, self.pos.y, 16, 32, src_x, 32, pixel_art_width, pixel_art_flags)
-  end
+  local src_x = game.seg_frame_counter % 8 < 4 and 44 or 60
+  blitSub(pixel_art, self.pos.x, self.pos.y, 16, 32, src_x, 32, pixel_art_width, pixel_art_flags | (math.abs(self.dir.y) > 0 and BLIT_ROTATE or 0))
 end
 
 function SpikeRoller:update()
